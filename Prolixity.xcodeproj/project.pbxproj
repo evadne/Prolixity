@@ -55,6 +55,7 @@
 		6AE091D7131751B90039E5E4 /* NSString+PXSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE091D4131751B90039E5E4 /* NSString+PXSupport.m */; };
 		6AE091D8131751B90039E5E4 /* PXUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE091D6131751B90039E5E4 /* PXUtilities.m */; };
 		6AE091DC1317571D0039E5E4 /* PXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE091DB1317571D0039E5E4 /* PXRuntime.m */; };
+		FF665E1813422DA600BF477E /* PXModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF665E1613422DA500BF477E /* PXModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -156,6 +157,7 @@
 		6AE091D6131751B90039E5E4 /* PXUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXUtilities.m; sourceTree = "<group>"; };
 		6AE091D91317525C0039E5E4 /* PXRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXRuntime.h; sourceTree = "<group>"; };
 		6AE091DB1317571D0039E5E4 /* PXRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXRuntime.m; sourceTree = "<group>"; };
+		FF665E1713422DA600BF477E /* PXModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PXModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +253,7 @@
 				6A3A78FE12FDE1650016D6AD /* PXRootViewController.m */,
 				6AA3954513174F7E00C034E0 /* PXSnippetManager.h */,
 				6AA3954613174F7F00C034E0 /* PXSnippetManager.m */,
+				FF665E1613422DA500BF477E /* PXModel.xcdatamodeld */,
 				6A95AD1E1314B0B200FA6E76 /* Images */,
 				6A3A78E912FDE1650016D6AD /* Supporting Files */,
 			);
@@ -567,6 +570,7 @@
 				6A38659313179801008B6B20 /* PXBlock+Bytecode.m in Sources */,
 				6A38659413179801008B6B20 /* PXBlock+PXSupport.m in Sources */,
 				6A38659513179801008B6B20 /* PXLexer.m in Sources */,
+				FF665E1813422DA600BF477E /* PXModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -878,6 +882,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FF665E1613422DA500BF477E /* PXModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FF665E1713422DA600BF477E /* PXModel.xcdatamodel */,
+			);
+			currentVersion = FF665E1713422DA600BF477E /* PXModel.xcdatamodel */;
+			path = PXModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6A3A78D512FDE1650016D6AD /* Project object */;
 }
